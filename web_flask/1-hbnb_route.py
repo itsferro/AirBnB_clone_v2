@@ -18,7 +18,7 @@ def index():
 
 
 @app.route('/hbnb', strict_slashes=False)
-def index():
+def hbnb():
     """
     Display 'HBNB' when accessing the root route.
     """
