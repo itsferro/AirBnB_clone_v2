@@ -74,7 +74,8 @@ def display_number_odd_or_even(n):
         o_or_e = 'even'
     else:
         o_or_e = 'odd'
-    return render_template('6-number_odd_or_even.html', number=n, odd_or_even=o_or_e)
+    page = '6-number_odd_or_even.html'
+    return render_template(page, number=n, odd_or_even=o_or_e)
 
 
 if __name__ == "__main__":
